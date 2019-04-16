@@ -68,3 +68,30 @@ Im letzten Tagespunkt wurden erste Risiken identifiziert und mögliche Gegensteu
 - Frühzeitige Auseinandersetzung mit der Sprache/Tools/Bibliotheken
 - Sorgfältige Planung
 - Schnelle aber gründliche Umsetzung von notwendigen Änderungen
+
+
+# 16/04/2019
+
+In der Sitzung am 16. April 2019 wurden einige Dinge besprochen und diskutiert.  
+
+Im ersten Schritt der Sitzung wurden weitere Aufgaben verteilt, die in den anstehenden Wochen durchgeführt werden müssen.
+- Anforderungsanalyse: Justin Drögemeier
+- Usecasediagramme: Dejan Novakovic
+- Sequenzdiagramme: Dejan Novakovic
+- Klassendiagramme: Valentin Hertel
+- Arbeitsplan/Meilensteinplanung: Michelle Vorwerk, Moritz Withöft
+- Lastenheft: Hannes Rüffer, Leon Hornig
+
+Zudem wurde die Bibliothek "laspy" genauer betrachtet. Es handelt sich sowohl um eine Read-Bibliothek als auch um eine Write-Bibliothek, sodass diese sowohl zum Einlesen der gegebenen las-Dateien verwendet werden kann als auch zur Bereitstellung, der im Programm neu erzeugt las-Dateien, dient. Hier hat es sich angeboten, dass man sich auch einmal die Katasterdaten anschaut, die vom Land NRW bereitgestellt werden. Da es sich hier um unglaublich große Datenmengen handelt, sind ein paar weitere Fragen aufgetreten (siehe unten), die zu beantworten gilt.
+
+Im nächsten Schritt wurde die Struktur des Lastenhefts festgelegt und besprochen, welches in nächster Zeit von Hannes Rüffer und Leon Hornig fertiggestellt wird.
+
+Zuletzt wurde ein grober Zeitplan, zusammen mit den festgelegten Abgabedaten der einzelnen Projektfortschritte, besprochen. Daraus wird in nächster Zeit die Meilensteinplanung von Michelle Vorwerk und Moritz Withöft erstellt, die die weitere Orientierung des Projekts vorgibt.
+
+## Aufgetretene Fragen
+Folgende Fragen sind im Verlauf aufgetreten und sollten möglichst bald im Sinne eines positiven Projektverlaufs beantwortet werden:
+- Werden zusätzliche Informationen bzgl. der Stadt angegeben oder wie wird man anhand der Punktwolke fündig?
+- Welche Dateien müssen genutzt werden?
+- Sollen Dateien hinterlegt werden oder stellt der Nutzer beide Daten (Punktwolke und Kataster) bereit?  
+
+Dabei ist es überaus wahrscheinlich, dass in den kommenden Tagen und Wochen weitere Fragen auftreten. Diese Fragen werden je nach Art im Team geklärt oder werden individuell durch die einzelnen Rollenverteter bewältigt.
