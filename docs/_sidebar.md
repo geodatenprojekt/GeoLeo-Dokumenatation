@@ -2,6 +2,8 @@
 
 * [Home](/)
 * [Protokolle](protokolle.md)
+* [Lastenheft](lastenheft.md)
+* [Risikomanagement](risikomanagement.md)
 * [Projekttagebuch Justin](tageguch_justin.md)
 * [Projekttagebuch Dejan](tageguch_dejan.md)
 * [Projekttagebuch Hannes](tageguch_hannes.md)
