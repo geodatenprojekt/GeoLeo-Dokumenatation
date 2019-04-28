@@ -95,3 +95,24 @@ Folgende Fragen sind im Verlauf aufgetreten und sollten möglichst bald im Sinne
 - Sollen Dateien hinterlegt werden oder stellt der Nutzer beide Daten (Punktwolke und Kataster) bereit?  
 
 Dabei ist es überaus wahrscheinlich, dass in den kommenden Tagen und Wochen weitere Fragen auftreten. Diese Fragen werden je nach Art im Team geklärt oder werden individuell durch die einzelnen Rollenverteter bewältigt.
+
+# 23/04/2019
+
+In der Sitzung am 23. April 2019 wurden in einem Meeting mit Herrn Schiffel zunächst die noch offenen Fragen der Vorwoche beantwortet, sodass im weiteren Verlauf mit einer gut geplanten und risikominimierten Arbeit begonnen werden konnte.
+
+Dabei wurden folgende Punkte geklärt:
+- Die Katasterdaten sind bisher noch nicht von der Firma geliefert worden, die diese zur Verfügung stellt und werden unserem Team ausgehändigt, sobald diese eingetroffen sind
+- Die Punktwolke steht nun zur Verfügung und kann von jedem Teammitglied heruntergeladen werden
+- **Jedes** Grundstück wird im Endergebnis in einer eigenen Datei abgespeichert
+- Die Grundstücke werden aus der Punktwolke **mit Hilfe der Katasterdaten** "herausgeschnitten"
+- Anzustreben ist eine Draufsicht auf die jeweiligen Karten, sodass diese von oben angepasst bzw. übereinandergelegt werden können
+  - Hier kann es eine Navigation geben, mit der eine Karte verschoben werden kann (links, rechts, oben, unten)
+- Es handelt sich um Gauß-Krüger-Koordinaten
+- Eine Punktwolke kann zuvor mit einem Tool (z.B. Cloudcompare) betrachtet werden, um sich mit der Form vertraut zu machen
+
+Nach der Klärung der Fragen wurde mit der Arbeit in den einzelnen Teilgruppen begonnen.
+- Hannes Rüffer und Leon Hornig arbeiten am Lastenheft
+- Justin Drögemeier arbeitet an der Anforderungsanalyse
+- Valentin Hertel arbeitet an den Klassendiagrammen
+- Dejan Novakovic arbeiten an den Usecasediagrammen
+- Moritz Withöft und Michelle Vorwerk arbeiten an der Meilensteinplanung
