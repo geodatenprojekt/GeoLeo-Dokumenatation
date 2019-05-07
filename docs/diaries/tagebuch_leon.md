@@ -9,7 +9,7 @@
 | Frontend    | 19. April 2019      | 30 Minuten      | Frontend-Technologien vergleichen     |
 | Gruppenmeeting    | 23. April 2019      | 180 Minuten      | Klärung von Fragen, Einteilung der Aufgaben      |
 | Gruppenmeeting    | 30. April 2019      | 180 Minuten      | Lastenheft erstellt, Datenstruktur diskutiert      |
-| Gruppenmeeting    | 06. Mai 2019      | 90 Minuten      | Frontend Planung      |
+| Frontend    | 06. Mai 2019      | 90 Minuten      | Frontend Planung      |
 | Gruppenmeeting    | 07. Mai 2019      | 40 Minuten      | Besprechung des aktuellen Standes     |
 | --    | --      | --      | --      |
 
