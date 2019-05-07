@@ -12,7 +12,8 @@
 | Gruppenmeeting    | 30. April 2019      | 180 Minuten      | Meilensteinplanung hinzugefügt      |
 | Protokoll    | 7. Mai 2019      | 60 Minuten      | Update der Protokolle vom 30. April und 7. Mai      |
 | Parameterdefinition    | 7. Mai 2019      | 30 Minuten      | Parameter der Kommandozeile      |
+| Parameterimplementierung    | 7. Mai 2019      | 90 Minuten      | Einarbeitung in argparse und Start der Implementierung      |
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit in Minuten: 840
+Gesamte Arbeitszeit in Minuten: 930
