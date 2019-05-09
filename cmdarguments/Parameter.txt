@@ -1,6 +1,7 @@
 -c --cadaster
 -p --pointcloud
--d --directory
--o --offset
+-o --output
+-y --yoffset
+-x --xoffset
 -v --version
 -h --help
