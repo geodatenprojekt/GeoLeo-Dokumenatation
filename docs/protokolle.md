@@ -116,3 +116,17 @@ Nach der Klärung der Fragen wurde mit der Arbeit in den einzelnen Teilgruppen b
 - Valentin Hertel arbeitet an den Klassendiagrammen
 - Dejan Novakovic arbeiten an den Usecasediagrammen
 - Moritz Withöft und Michelle Vorwerk arbeiten an der Meilensteinplanung
+
+# 30/04/2019
+Am heutigen Tage wurden die definierten Meilensteine dem Auftraggeber vorgestellt. Dies wurde im Zuge einer Präsentation durchgeführt, in der zudem auch das Konzept vorgestellt wurde, sowie die verwendete Programmiersprache, Risikomanagement, Aufteilung der einzelnen Gruppenmitglieder auf die zu bewältigenden Aufgaben und weitere Anforderungen.
+
+Danach folgte ein kleines Gruppenmeeting, um sich über den aktuellen Projektstand zu informieren, aber auch um das weitere strategische Vorgehen genauer festzulegen. Der aktuelle Zeitplan mag etwas zu kleine Schätzzeiten enthalten, sodass empfohlen wurde, einen größeren Puffer zu erlauben, da sich die bisher bestimmten Zeiten mit hoher wahrscheinlichkeit erhöhen werden.
+
+# 07/05/2019
+
+Zu dieser Sitzung wurden die akutellen Fortschritte der jeweiligen Arbeitsgruppen mitgeteilt.
+
+- Dejan und Leon haben sich mit der GUI-Bibliothek tkinter beschäftigt. Diese erfüllt die funktionalen Anforderungen, hat jedoch eine sehr unästhetische Benutzeroberfläche. Der Projektleiter in Form von Justin hat vorgeschlagen, sich mit der Bibliothek Kivy zu beschäftigen, weil diese eine anschauliche Oberfläche bietet, aber auch eine OpenGL-ähnliche grafische Darstellung zur Verfügung stellt.
+- Justin hat sich mit Logging beschäftigt und wird in der nächsten Woche die zu verwendende Bibliothek/Schnittstelle vorstellen. Weiterhin hat er sich bereit erklärt das GUI-Team bei der Entwicklung zu unterstützen.
+- Moritz hat sich mit der Definition der Parameter beschäftigt und hat die Aufgabe, dass die Eingabe mittels der Kommandozeilenparameter bis zur nächsten Woche implementiert wurde.
+- Valentin hat sich mit der Testbibliothek "unittest" beschäftigt und wird diese in der nächsten Woche vorstellen, sowie sich fortlaufend mit dem Testen der Anwendung beschäftigen. Er ist ja schließlich auch der Qualitätsmanager und hat diese Aufgabe.
