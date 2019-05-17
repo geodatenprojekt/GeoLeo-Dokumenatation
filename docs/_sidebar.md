@@ -3,6 +3,7 @@
 * [Home](/)
 * [Protokolle](protokolle.md)
 * [Lastenheft](lastenheft.md)
+* [Meilensteine] (meilensteinplanung.md)
 * [Risikomanagement](risikomanagement.md)
 * [Projekttagebuch Justin](diaries/tagebuch_justin.md)
 * [Projekttagebuch Dejan](diaries/tagebuch_dejan.md)
