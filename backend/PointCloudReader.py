@@ -58,10 +58,25 @@ class PointCloudFileIO:
 
 
     """
-    Returns all points in the PointCloud, see below for a thorough example
+    Returns all points in the PointCloud, uses absolute coordinates by default
     """
-    def getPoints(self):
-        return self.file.points
+    def getPoints(self, absolute=True):
+        if(self.file != None):
+            if(absolute):
+                return np.vstack((self.file.x, self.file.y, self.file.z)).transpose()
+            else:
+                return np.vstack((self.file.X, self.file.Y, self.file.Z)).transpose()
+
+    """
+    Returns all points and colors in the PointCloud, uses absolute coordinates by default
+    """
+    def getPointsWithColors(self, absolute=True):
+        if(self.file != None):
+            if(absolute):
+                return np.vstack((self.file.x, self.file.y, self.file.z, self.file.red, self.file.green, self.file.blue)).transpose()
+            else:
+                return np.vstack((self.file.X, self.file.Y, self.file.Z, self.file.red, self.file.green, self.file.blue)).transpose()
+
 
     def getPath(self):
         return self.path
@@ -71,38 +86,58 @@ class PointCloudFileIO:
 
 
 
-
 """
 === Explanation of the points array ===
 
 
 # PointCloudFileIO.getPoints() returns a numpy array of points in this form:
-# point = tuple(tuple(i4, i4, i4, u2, u1, u1, i1, u1, u2, u2, u2, u2),)
+# point = numpy.ndarray([i4, i4, i4, u2, u2, u2])
 
 # This means a point in this array looks like this with semantics:
-# point = ((x, y, z, intensity, flag_byte, raw_classification, scan_angle_rank, user_data, pt_src_id, red, green, blue),)
+# point = numpy.ndarray([x, y, z, red, green, blue])
 
 # And like this with example values:
-# point = ((11683, 25476,   8710, 0, 32, 0, 0, 0, 364, 19380, 21165, 23205),)
+# point = numpy.ndarray([11683, 25476,  8710,  19380, 21165, 23205])
 
 # All numpy functions can be used to create a modified version of the points array
 
 
 === Example usage of class PointCloudReader ===
 
-
 # Create new PointCloudFileIO object with the path to the laz/las file as parameter
 pcReader = PointCloudFileIO(util.getPathToFile("example_data/47078_575419_0011.laz"))
 
 points = pcReader.getPoints()
 print(points[0]) # The first point in the list
-print(points[0][0][0]) # The x coordinate of the first point
-print(points[0][0][1]) # The y coordinate of the first point
-print(points[0][0][2]) # The z coordinate of the first point
+print(points[0][0]) # The x coordinate of the first point
+print(points[0][1]) # The y coordinate of the first point
+print(points[0][2]) # The z coordinate of the first point
 
 pcReader.writeFileToPath(util.getPathToFile("test.las")) # Write the input file to another file
 
 
-# More examples of modifying the points array:
+
+
+# Example of how to calculate distances between the first 20 points and all other points
+# This will print how many points are closer or exactly 1000 units away for each of the first 20 points
+pcReader = PointCloudFileIO(util.getPathToFile("example_data/47078_575419_0011.laz"))
+points = pcReader.getPoints()
+for p in points[0:20]:
+    selection = util.getPointsCloseToAnchor(p, points, distance=1000)
+    pointsFiltered = points[selection]
+    print("'{}' points are left from the pointcloud".format(len(pointsFiltered)))
+
+
+
+# Example of how to keep only points that are closer than 5000 units to the first point in the PointCloud,
+# and write the result to an output file
+pcReader = PointCloudFileIO(util.getPathToFile("example_data/47078_575419_0011.laz"))
+points = pcReader.getPoints()
+firstPoint = points[0]
+selection = util.getPointsCloseToAnchor(firstPoint, points, distance=5000)
+pcReader.writeFileToPath(util.getPathToFile("test.las"), selection)
+
+
+# More examples of how to modify the points array:
 # https://pythonhosted.org/laspy/tut_part_1.html
 """
