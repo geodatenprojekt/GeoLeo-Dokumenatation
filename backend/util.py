@@ -12,11 +12,17 @@ def getPathToFile(file):
         joined = os.path.join(directory, file)
         return joined
 
+
+def getPathRelativeToRoot(file):
+    rootDir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(rootDir, "../"+file)
+
+
 """
 Unzips a specified '.laz' file to a '.las' file. By default this method uses the
 'laszip-cli.exe' located in the current directory
 """
-def unzipLAZFile(pathToFile, pathToLASZIP=getPathToFile("../libs/laszip-cli.exe")):
+def unzipLAZFile(pathToFile, pathToLASZIP=getPathRelativeToRoot("libs/laszip-cli.exe")):
     subprocess.call([pathToLASZIP, pathToFile])
 
 
