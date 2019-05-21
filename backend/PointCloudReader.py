@@ -86,9 +86,10 @@ class PointCloudFileIO:
     def getFile(self):
         return self.file
 
-pcReader = PointCloudFileIO(util.getPathToFile("example_data/47078_575419_0011.laz"))
-points = pcReader.getPoints()
-[print(x) for x in points[0:20]]
+if __name__ == "__main__":
+    pcReader = PointCloudFileIO(util.getPathToFile("../backend/example_data/47078_575419_0011.laz"))
+    points = pcReader.getPoints()
+    [print(x) for x in points[0:20]]
 
 
 """
