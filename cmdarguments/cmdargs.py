@@ -1,5 +1,6 @@
 import argparse
 import os
+import sys
 
 
 class Parameters:
@@ -12,9 +13,9 @@ class Parameters:
         self.xoffset = 0.0
         self.yoffset = 0.0
 
-        self.parseArguments()
+        self.writeArgs()
 
-    def parseArguments(self):
+    def parseArguments(self, args):
         """Method is parsing the commandline arguments to the variables create in __init__(self)"""
 
         parser = argparse.ArgumentParser(prog='Geodatenverarbeitung')
@@ -27,12 +28,13 @@ class Parameters:
         parser.add_argument("-x", "--xoffset", type=float, default=0, help="float expected, offset in direction x")
         parser.add_argument("-y", "--yoffset", type=float, default=0, help="flaot expected, offset in direction y")
         parser.add_argument("-v", '--version', action='version', version='%(prog)s 0.1')
-        args = parser.parse_args()
-        self.writeArgs(args)
+        return parser.parse_args()
         
 
-    def writeArgs(self, args):
+    def writeArgs(self):
         """Checks if certain arguments are given writes them to class variables then"""
+
+        args = self.parseArguments(sys.argv[:1])
 
         if args.cadaster:
             self.cadasterPath = args.cadaster
