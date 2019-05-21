@@ -13,7 +13,8 @@
 | Protokoll    | 7. Mai 2019      | 60 Minuten      | Update der Protokolle vom 30. April und 7. Mai      |
 | Parameterdefinition    | 7. Mai 2019      | 30 Minuten      | Parameter der Kommandozeile      |
 | Parameterimplementierung    | 7. Mai 2019      | 90 Minuten      | Einarbeitung in argparse und Start der Implementierung      |
-| --    | --      | --      | --      |
+| Parameterimplementierung    | 15. Mai 2019      | 130 Minuten      | Fertigstellung des Parsens      |
+| Parameterüberarbeitung    | 21. Mai 2019      | 60 Minuten      | Argumente testbar gemacht      |
 
 
-Gesamte Arbeitszeit in Minuten: 930
+Gesamte Arbeitszeit in Minuten: 1120
