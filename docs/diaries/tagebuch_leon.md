@@ -11,7 +11,11 @@
 | Gruppenmeeting    | 30. April 2019      | 180 Minuten      | Lastenheft erstellt, Datenstruktur diskutiert      |
 | Frontend    | 06. Mai 2019      | 90 Minuten      | Frontend Planung      |
 | Gruppenmeeting    | 07. Mai 2019      | 40 Minuten      | Besprechung des aktuellen Standes     |
+| OpenGL    | 17. Mai 2019      | 120 Minuten      | Installieren von PyOpenGL     |
+| OpenGL    | 18. Mai 2019      | 180 Minuten      | Problemebehebung von GLUT, PyOpenGL-Accelerate (C++ 14 Buildtools)     |
+| OpenGL    | 21. Mai 2019      | 300 Minuten      | Erste Darstellung eine Punktwolke     |
+
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit in Minuten: 820
+Gesamte Arbeitszeit in Minuten: ---
