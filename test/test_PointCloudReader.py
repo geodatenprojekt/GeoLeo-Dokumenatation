@@ -20,7 +20,7 @@ class Test_PointCloudReader(unittest.TestCase):
         pointCloud = PointCloudReader.PointCloudFileIO("../backend/example_data/47078_575411_0011.laz")
         pointCloud.writeFileToPath("../backend/example_data/test.las")
         self.assertTrue(os.path.isfile("../backend/example_data/test.las"))
-        #os.remove("../backend/example_data/test.las")
+        os.remove("../backend/example_data/test.las")
 
     def tearDown(self) -> None:
         pass
