@@ -16,7 +16,7 @@ def getPathToFile(file):
 Unzips a specified '.laz' file to a '.las' file. By default this method uses the
 'laszip-cli.exe' located in the current directory
 """
-def unzipLAZFile(pathToFile, pathToLASZIP=getPathToFile("laszip-cli.exe")):
+def unzipLAZFile(pathToFile, pathToLASZIP=getPathToFile("../libs/laszip-cli.exe")):
     subprocess.call([pathToLASZIP, pathToFile])
 
 
@@ -29,7 +29,7 @@ Returns a boolean list which identifies all points from <numpyArr> that are with
 def getPointsCloseToAnchor(anchor, numpyArr, distance=1000):
     if(numpyArr.shape[1] != 3):
         raise ValueError("numpyArr has invalid dimensions: '{}' columns found, '3' needed.".format(numpyArr.shape[1]))
-    if(anchor.shape[0] != 3 or len(anchor.shape) != 1):
+    if(len(anchor) != 3):
         raise ValueError("numpyArr has invalid dimensions: '{}' found, '(3,)' needed.".format(anchor.shape))
     if(distance < 0):
         raise ValueError("Invalid distance specified: '{}'".format(distance))

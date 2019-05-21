@@ -29,16 +29,19 @@ auswahlAllerPunkte = punktwolkeSubsetAuswählen(punkte, x1, y1, x2, y2) #Liste m
 punkteEingegrenzt = punkte[auswahlAllerPunkte] #Nehme nur die konkreten Punkte aus der Punktwolke
 \#An dieser Stelle evt. Punkte aus dem Inneren des Rechtecks aus der Auswahl herausnehmen, um die Performance für den folgenden Part zu verbessern
 
-for i bis punkteEingegrenzt.length
+n = punkteEingegrenzt.length
+
+for i bis n
   punkt = punkte[i]
   auswahlNaherPunkte = berechnePunkteNahAnPunkt(punkt, punkte, distanzTol)
   auswahlAllerPunkte = auswahlAllerPunkte & auswahlNaherPunkte
 
   nahePunkte = punkte[auswahlNaherPunkte]
-  for j bis nahePunkte.length
-    naherPunkt = nakePunkte[j]
-    if naherPunkt nicht in punkteEingegrenzt
+  for j bis auswahlNaherPunkte.length
+    if auswahlNaherPunkte[j] == True and auswahlAllerPunkte[j] == False
+      naherPunkt = punkte[j]
       punkteEingegrenzt.append(naherPunkt)
+      n++
 
 \#An dieser Stelle evt. Grenzen für die Auswahl aller Punkte setzen, in dem Fall, dass eine Kette von Punkte, die nicht zu einem Haus gehört haben (z.B. ein nahestehender Baum), mitgescannt wurde. Dann würde verhindert werden, dass zu viel außerhalb des tatsächlichen Hauses ausgeschnitten wird.
 
