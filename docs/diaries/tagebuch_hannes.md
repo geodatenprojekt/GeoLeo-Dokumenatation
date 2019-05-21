@@ -12,8 +12,8 @@
 | LasPy Reader    | 3. Mai 2019      | 30 Minuten      | PointCloud Parser angefangen      |
 | LasPy Reader    | 10. Mai 2019      | 120 Minuten      | PointCloud Parser versucht zu erweitern      |
 | LasPy Reader    | 19. Mai 2019      | 150 Minuten      | PointCloud Parser erweitert      |
-| Algo. Ausschneiden    | 21. Mai 2019      | 60 Minuten      | Algorithmus zum Ausschneiden im Optimalfall entwickelt      |
+| Algo. Ausschneiden    | 21. Mai 2019      | 80 Minuten      | Algorithmus zum Ausschneiden im Optimalfall entwickelt      |
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit: 1060 Minuten
+Gesamte Arbeitszeit: 1080 Minuten

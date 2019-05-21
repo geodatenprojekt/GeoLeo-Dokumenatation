@@ -1,7 +1,9 @@
 from laspy.file import File
 import numpy as np
-import util
-
+if __name__ == "__main__":
+    import util
+else:
+    from backend import util
 
 """
 Class PointCloudFileIO encapsulates read/write access to .laz/.las files
@@ -84,6 +86,9 @@ class PointCloudFileIO:
     def getFile(self):
         return self.file
 
+pcReader = PointCloudFileIO(util.getPathToFile("example_data/47078_575419_0011.laz"))
+points = pcReader.getPoints()
+[print(x) for x in points[0:20]]
 
 
 """
