@@ -15,6 +15,8 @@
 | Parameterimplementierung    | 7. Mai 2019      | 90 Minuten      | Einarbeitung in argparse und Start der Implementierung      |
 | Parameterimplementierung    | 15. Mai 2019      | 130 Minuten      | Fertigstellung des Parsens      |
 | Parameterüberarbeitung    | 21. Mai 2019      | 60 Minuten      | Argumente testbar gemacht      |
+| Gruppenmeeting    | 21. Mai 2019      | 150 Minuten      | Besprechung und Fehlerdiskussion sowie deren Behebung      |
+| Parametertests    | 27. Mai 2019      | 30 Minuten      | Parameter in Sysargs hinzufügen      |
 
 
-Gesamte Arbeitszeit in Minuten: 1120
+Gesamte Arbeitszeit in Minuten: 1300
