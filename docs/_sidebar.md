@@ -12,3 +12,4 @@
 * [Projekttagebuch Michelle](diaries/tagebuch_michelle.md)
 * [Projekttagebuch Moritz](diaries/tagebuch_moritz.md)
 * [Projekttagebuch Valentin](diaries/tagebuch_valentin.md)
+* [Logging in Python](logging.md)
