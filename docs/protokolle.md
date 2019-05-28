@@ -130,3 +130,7 @@ Zu dieser Sitzung wurden die akutellen Fortschritte der jeweiligen Arbeitsgruppe
 - Justin hat sich mit Logging beschäftigt und wird in der nächsten Woche die zu verwendende Bibliothek/Schnittstelle vorstellen. Weiterhin hat er sich bereit erklärt das GUI-Team bei der Entwicklung zu unterstützen.
 - Moritz hat sich mit der Definition der Parameter beschäftigt und hat die Aufgabe, dass die Eingabe mittels der Kommandozeilenparameter bis zur nächsten Woche implementiert wurde.
 - Valentin hat sich mit der Testbibliothek "unittest" beschäftigt und wird diese in der nächsten Woche vorstellen, sowie sich fortlaufend mit dem Testen der Anwendung beschäftigen. Er ist ja schließlich auch der Qualitätsmanager und hat diese Aufgabe.
+
+# 14/05/2019 und 21/05/2019
+
+Die Protokolle aus den beiden Sitzungen entfallen. An diesen Terminen wurde weiter konzentriert und effizient am Projekt gearbeitet, daher ist eine detaillierte Protokollfürhung der Teambesprechungen obsolet.
