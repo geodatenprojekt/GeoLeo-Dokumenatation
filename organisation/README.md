@@ -11,7 +11,7 @@
 **Risikomanager:** Hannes Rüffer  
 **Stakeholdermanager:** Michelle Vorwerk  
 **Qualitätsmanager:** Valentin Hertel - [GIT](https://github.com/Valentin235)  
-**Dokumenatationsmanager:** Moritz Withöft - [GIT](https://github.com/mwithoeft)
+**Dokumentationsmanager:** Moritz Withöft - [GIT](https://github.com/mwithoeft)
 
 
 **[GitHub-Page](LINK)**  
