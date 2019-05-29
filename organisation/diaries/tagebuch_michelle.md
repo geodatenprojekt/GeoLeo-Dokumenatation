@@ -11,5 +11,7 @@
 | Gruppenmeeting | 21.05.19 | 04:00h | Klärung des Projektstands und weiterarbeiten an Aufgaben |
 | CadasterReader | 21.05.19  | 04:00h | Einlesen in CityGML, nach nützlichen Libs suchen |
 | CadasterReader | 23.05.19 | 06:00h | Programmieren des Readers
+| CadasterReader | 28.05.19 | 03:00h | Fixen des Readers
+| CadasterReader | 29.05.19 | 01:30h | Refactorn des Readers
 
-Gesamte Arbeitszeit in Minuten: 1200
+Gesamte Arbeitszeit in Minuten: 1450
