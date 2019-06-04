@@ -134,3 +134,32 @@ Zu dieser Sitzung wurden die akutellen Fortschritte der jeweiligen Arbeitsgruppe
 # 14/05/2019 und 21/05/2019
 
 Die Protokolle aus den beiden Sitzungen entfallen. An diesen Terminen wurde weiter konzentriert und effizient am Projekt gearbeitet, daher ist eine detaillierte Protokollfürhung der Teambesprechungen obsolet.
+
+# 28/05/2019
+
+An diesem Tag war der Auftraggeber nicht anwesend. Aus diesem Grund wurde selbstständig und konzentriert in den einzelnen Teilgruppen der verschiedenen Aufgabenbereiche gearbeitet. Besonders die Arbeit im Backend macht große Fortschritte. Unter dem Kommando von Abteilungsleiter Rüffer stellt er zusammen mit Hertel und Withöft ein hervorragendes Team dar.
+Während dieses Trio auf Seiten der Punktwolke aktiv ist, setzt Michelle Vorwerk effektiv das Einlesen und die Verarbeitung der Katasterdaten um. Es lassen sich diese bereits auswerten und verändern, sodass diese zur Anzeige aus dem Frontend heraus bereitsteht.
+
+Weiterhin kümmert sicht Valentin Hertel konzentriert um das ausführliche Testen der einzelnen Module und Moritz Withöft um die Dokumentation des Projekts sowie die Protokollführung in den einzelnen Sitzungen.
+
+# 04/06/2019
+
+Da bereits in zwei Wochen die Dokumentation mit allen Heften des Projekts abgegeben werden werden sollen, wurden zu Beginn der Sitzung ausführliche Fortschrittsberichte von Backendleiter Hannes Rüffer und von Frontendleiter Leon Hornig eingeholt.
+
+**Bericht des Leiters für Backend-Development - Hannes Rüffer:**
+
+Der Algorithmus zur Eingabe von Las Dateien wurde fertiggestellt. Diese lassen sich unter der Angabe des Ordners einlesen und verarbeiten. Mittels der Kombination mit den erhaltenen Katasterdaten können bereits Koordinaten von Gebäuden identifiziert werden. Dafür wird ein Algorithmus einer Bibliothek verwendet, die in der Lage ist zu prüfen, ob sich ein Punkt in einem Polygon befindet. Die Laufzeit ist inzwischen zufriedenstellend. Obwohl diese Anfangs ein Problem darstellte, konnte bereits der zeitliche Aufwand einer 10GB Datei auf ca. 2 Minuten begrenzt werden.
+Dabei wird schon ein Preprocessing vorgenommen, um die Laufzeit weiter zuverbessern sowie im Vorfeld die global höchsten und tiefsten Koordinaten bestimmt, um Fehler zu vermeiden und Grenzen zu setzen.
+
+In den nächsten Schritten müssen Punktwolken zusammengeführt werden (einfach), sowie diese ausgeschnitten werden (herausfordernd).
+
+**Bericht des Leiters für Frontend-Development - Leon Hornig:**
+
+Der Bericht von Leon Hornig beinhaltete den Fortschritt im Frontend. Zur Anzeige soll TKinter benutzt werden. Hier wird PyOpenGL eingebunden, um aus den Koordinaten ein Bild zu erzeugen. Hier wird noch einiges an Arbeit nötig sein.
+
+
+**Weitere Besprechungen:**
+
+Desweiteren wurde über die Art der Anzeige und die Einstellung des Offsets diskutiert. Da eine komplette Darstellung einer 10GB großen Punktwolke einem normalen haushältsüblichen Computers nicht zuzumuten ist, wird nur ein Ausschnitt angezeigt, über den die entsprechende Verschiebung angepasst. Im Hintergrund werden dann alle Punktwolken mit Häusern ausgeschnitten und gespeichert.
+
+Im weiteren Verlauf wurde an den besprochenen Punkten gearbeitet, um einen zufriedenstellenden Fortschritt zu erreichen.

@@ -17,6 +17,9 @@
 | Parameterüberarbeitung    | 21. Mai 2019      | 60 Minuten      | Argumente testbar gemacht      |
 | Gruppenmeeting    | 21. Mai 2019      | 150 Minuten      | Besprechung und Fehlerdiskussion sowie deren Behebung      |
 | Parametertests    | 27. Mai 2019      | 30 Minuten      | Parameter in Sysargs hinzufügen      |
+| Teamsitzung   | 28. Mai 2019      | 180 Minuten      | Fehlerbehebung und Fortschrittsbesprechung      |
+| Protokoll    | 4. Juni 2019      | 30 Minuten      | Schreiben des Protokolls + Updates     |
+| Teamsitzung    | 4. Juni 2019      | 180 Minuten      | Besprechung und Arbeit am Projekt      |
 
 
-Gesamte Arbeitszeit in Minuten: 1300
+Gesamte Arbeitszeit in Minuten: 1690
