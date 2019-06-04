@@ -16,7 +16,7 @@ Ausgabe:
 - Liste mit booleans. Entsprechend lang wie die eingegebende Punktewolke und enumeriert, welche der Punkte in der finalen Punktwolke vorhanden sein sollen. Das muss so gemacht werden, damit laspy & numpy die eingelesene Punktewolke richtig ausschneiden können
 
 ### Algorithmus
-
+```
 eingDist #Eingrenzungsdistanz
 distanzTol #Distanztoleranz
 x1, y1, x2, y1 = Kataster() #Koordinaten des Katasters, x1<x2 & y1<y2
@@ -46,3 +46,4 @@ for i bis n
 \#An dieser Stelle evt. Grenzen für die Auswahl aller Punkte setzen, in dem Fall, dass eine Kette von Punkte, die nicht zu einem Haus gehört haben (z.B. ein nahestehender Baum), mitgescannt wurde. Dann würde verhindert werden, dass zu viel außerhalb des tatsächlichen Hauses ausgeschnitten wird.
 
 return auswahlAllerPunkte
+```
