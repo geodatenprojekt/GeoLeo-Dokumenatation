@@ -14,6 +14,8 @@
 | Gruppenmeeting | 21 Mai   | 150 | Besprechnung und Fehlerdiskussion sowie deren Behebnung |
 | Test | 21 Mai 2019   | 180  | backend/util Test erstellt |
 | Test | 27 Mai 2019 | 120 | cmd Args Test erstellt|
+| Test | 28 Mai 2019 | 180 | Gruppenmeeting|
+| Test | 03 Juni 2019 | 120 | Teststrucktur angepasst und weiter cmd Args Test erstellt |
 
 
 Gesamte Arbeitszeit in Minuten: 1500 min
