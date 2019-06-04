@@ -14,6 +14,8 @@
 | OpenGL    | 17. Mai 2019      | 120 Minuten      | Installieren von PyOpenGL     |
 | OpenGL    | 18. Mai 2019      | 180 Minuten      | Problemebehebung von GLUT, PyOpenGL-Accelerate (C++ 14 Buildtools)     |
 | OpenGL    | 21. Mai 2019      | 300 Minuten      | Erste Darstellung eine Punktwolke     |
+| OpenGL    | 26. Mai 2019      | 60 Minuten      | Darstellung eine Punktwolke     |
+| OpenGL    | 29. Mai 2019      | 30 Minuten      | Probleme mit Farbe     |
 
 | --    | --      | --      | --      |
 
