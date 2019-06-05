@@ -17,6 +17,7 @@
 | OpenGL    | 26. Mai 2019      | 60 Minuten      | Darstellung eine Punktwolke     |
 | OpenGL    | 29. Mai 2019      | 30 Minuten      | Probleme mit Farbe     |
 | Gruppenmeeting    | 04. Juni 2019      | 180 Minuten      | Darstellung mit OpenGL     |
+| OpenGL    | 06. Juni 2019      | 220 Minuten      | Großer Fortschitt OpenGL (Zoom, Rotate usw)     |
 
 | --    | --      | --      | --      |
 
