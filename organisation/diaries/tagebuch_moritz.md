@@ -20,6 +20,7 @@
 | Teamsitzung   | 28. Mai 2019      | 180 Minuten      | Fehlerbehebung und Fortschrittsbesprechung      |
 | Protokoll    | 4. Juni 2019      | 30 Minuten      | Schreiben des Protokolls + Updates     |
 | Teamsitzung    | 4. Juni 2019      | 180 Minuten      | Besprechung und Arbeit am Projekt      |
+| Benutzerhandbuch    | 10. Juni 2019      | 90 Minuten      | Struktur und Parametererklärung      |
 
 
-Gesamte Arbeitszeit in Minuten: 1690
+Gesamte Arbeitszeit in Minuten: 1780
