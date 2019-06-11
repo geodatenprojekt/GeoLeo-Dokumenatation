@@ -18,7 +18,7 @@ Hier wird dem Nutzer Informationsmaterial bereitgestellt. Dieses Informationsmat
 Hier wird auf die zu bearbeitenden Daten eingegangen. Im Bezug auf GeoLeo wird dabei auf die verwendeten Datentypen der Punktwolken (.las) und Katasterdaten (.gml) eingegangen. Hier wird auch auf die genutzen Importschnittstellen für die Dateitypen eingegangen.
 
 >**Testdokumentation:**  
-Um ein qualitativ hochwertige Software anbieten zu können, ist das Erzeugen von Testfällen und die Überprüfung fer Software auf Funktionalität unerlässlich. Unter diesem Aspekt werden diese Testfälle weiter ausgeführt.
+Um eine qualitativ hochwertige Software anbieten zu können, ist das Erzeugen von Testfällen und die Überprüfung fer Software auf Funktionalität unerlässlich. Unter diesem Aspekt werden diese Testfälle weiter ausgeführt.
 
 >**Projektdokumente:**  
 Zu jedem Projekt gehört das Anlegen von Dokumenten, wie beispielsweise Ziele und Anforderungen, Diagramme etc. Die einzelnen Dokumente werden hier vorgestellt.
