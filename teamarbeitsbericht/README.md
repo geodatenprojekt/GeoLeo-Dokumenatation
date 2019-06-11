@@ -9,7 +9,7 @@
 | Dejan Novakovic | Entwicklung |
 | Michelle Vorwerk | Entwicklung |
 | Leon Hornig | Entwicklung |
-| Valentin Wll | Qualitätsmanagement |
+| Valentin Hertel | Qualitätsmanagement |
 
 ## Vorstellung der Teammitglieder
 
