@@ -21,6 +21,7 @@
 | Protokoll    | 4. Juni 2019      | 30 Minuten      | Schreiben des Protokolls + Updates     |
 | Teamsitzung    | 4. Juni 2019      | 180 Minuten      | Besprechung und Arbeit am Projekt      |
 | Benutzerhandbuch    | 10. Juni 2019      | 90 Minuten      | Struktur und Parametererklärung      |
+| Teamsitzung   | 11. Juni 2019      | 240 Minuten      | Besprechung + Schreiben von Dokumentation      |
 
 
-Gesamte Arbeitszeit in Minuten: 1780
+Gesamte Arbeitszeit in Minuten: 2020
