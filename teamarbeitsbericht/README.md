@@ -19,11 +19,11 @@ Justin Drögemeier diente im Zuge des Projekts als Schnittstelle für das Team u
 
 ### Moritz Withöft, Dokumentationsmanager
 
-Moritz Withöft at jedes Treffen ausführlich protokolliert und war größtenteils für Dokumentationen zuständig bzw. hat größtenteils die schriftliche Arbeit übernommen. Er hat Justin Drögemeier bei der Planung von Meilensteinen sowie bei der Aufteilung der Teamitglieder auf die einzelnen Rollen unterstützt. Weiterhin koordinierte er die Aufteilung des Teams auf das Schreiben der verschiedenen Projektdokumentationsberichte und erstellte eine dafür geeignete Dokumentenstruktur.
+Moritz Withöft at jedes Treffen ausführlich protokolliert und war größtenteils für Dokumentationen zuständig bzw. hat größtenteils die schriftliche Arbeit übernommen. Er hat Justin Drögemeier bei der Planung von Meilensteinen sowie bei der Aufteilung der Teamitglieder auf die einzelnen Rollen unterstützt. Weiterhin koordinierte er die Aufteilung des Teams auf das Schreiben der verschiedenen Projektdokumentationsberichte und erstellte eine dafür geeignete Dokumentenstruktur. Moritz programmierte außerdem im Zuge der Projektarbeit die Kommandozeilenparameter sowie das Parsen und die Verarbeitung hin dieser zu einer guten Schnittstelle.
 
 ### Hannes Rüffer
 
-Hannes Rüffer diente als hauptverantwortlicher Entwickler, soll bedeuten, die grundlegenden Algorithmen wurden von Hannes entwickelt. Dieser Aspekt beinhaltet das Suchen von Gebäuden in den Punktwolken mit Hilfe der Katasterdaten sowie das Ausschneiden bei der erfolgreichen Findung eines Gebäudes. Hierfür mussze sich Hannes in unterschiedliche Bibliotheken, wie beispielsweise Numpy und Shapely einarbeiten, um die Punktwolken als Datenstruktur abbzubilden. Weiterhin hat sich Hannes ausführlich mit deren Bearbeitung sowie der Durchführung von geometrischen Berechnungen auseinandergesetzt.
+Hannes Rüffer diente als hauptverantwortlicher Entwickler, soll bedeuten, die grundlegenden Algorithmen wurden von Hannes entwickelt. Dieser Aspekt beinhaltet das Suchen von Gebäuden in den Punktwolken mit Hilfe der Katasterdaten sowie das Ausschneiden bei der erfolgreichen Findung eines Gebäudes. Hierfür musste sich Hannes in unterschiedliche Bibliotheken, wie beispielsweise Numpy und Shapely einarbeiten, um die Punktwolken als Datenstruktur abbzubilden. Weiterhin hat sich Hannes ausführlich mit deren Bearbeitung sowie der Durchführung von geometrischen Berechnungen auseinandergesetzt.
 
 ### Dejan Novakovic
 

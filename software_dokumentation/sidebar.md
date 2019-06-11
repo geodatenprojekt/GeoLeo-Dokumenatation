@@ -9,3 +9,4 @@
 * [Testdokumentation](testdokumentation.md)
 * [Projektdokumente](projektdokumente.md)
 * [Systemdokumente](systemdokumente.md)
+* [Sitzungsprotokolle](sitzungsprotokolle.md)
