@@ -20,7 +20,9 @@
 | Algo. Ausschneiden    | 4. Juni 2019      | 120 Minuten      | Algorithmus zum Ausschneiden Laufzeit optimiert      |
 | Gruppenmeeting & Punktwolken zusammenführen    | 4. Juni 2019      | 180 Minuten      | Algorithmus zum Zusammenführen von Punktwolken implementiert      |
 | Punktwolken zusammenführen    | 7. Juni 2019      | 270 Minuten      | Zusammenführen von Punktwolken gefixed      |
+| Punktwolken ausschneiden    | 10. Juni 2019      | 180 Minuten      | Punktwolken ausschneiden angefangen      |
+| Gruppenmeeting & Punktwolken ausschneiden    | 11. Juni 2019      | 300 Minuten      | Punktwolken ausschneiden angefangen      |
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit: 2400 Minuten
+Gesamte Arbeitszeit: 2880 Minuten
