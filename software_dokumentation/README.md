@@ -3,7 +3,7 @@
 Im Folgenden werden verschiedene Aspekte der Software dokumentiert, die ggf. auf unterschiedliche Zielgruppen ausgerichtet sind. Diese verschiedene Aspekte werden nun erst erläutert. Danach wird der Aspekt der Dokumentation am Projekt GeoLeo umgesetzt.
 
 >**Methodendokumentation:**  
-In diesem Bereich werden die allgemeinen Grundlagen der Software beschrieben. Dabei wird auf Verfahren eingegangen, die in der Software benutzt werden. Dabei wird allerdings noch nicht auf technische Details bzw. die Umsetzung der genannten Verfahren eingegangen.
+In diesem Bereich werden die allgemeinen Grundlagen der Software beschrieben. Dabei wird auf Verfahren eingegangen, die in der Software benutzt werden. Darunter wird allerdings noch nicht auf technische Details bzw. die Umsetzung der genannten Verfahren eingegangen.
 
 >**Programmierdokumentation:**  
 Unter diesem Aspekt werden wesentliche Aspekte im Quellcode vorgestellt.
