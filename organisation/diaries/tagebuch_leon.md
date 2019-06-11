@@ -19,8 +19,10 @@
 | Gruppenmeeting    | 04. Juni 2019      | 180 Minuten      | Darstellung mit OpenGL     |
 | OpenGL    | 06. Juni 2019      | 220 Minuten      | Großer Fortschitt OpenGL (Zoom, Rotate usw)     |
 | OpenGL    | 07. Juni 2019      | 240 Minuten      | Arbeiten an Performance (Verzweifeln an Buffern)     |
+| Gruppenmeeting    | 11. Juni 2019      | 180 Minuten      | Performance Fortschritt, Teambesprechung     |
+| OpenGL    | 11. Juni 2019      | 160 Minuten      | Arbeiten am Parsen in absolute Werte     |
 
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit in Minuten: ---
+Gesamte Arbeitszeit in Minuten: 2490
