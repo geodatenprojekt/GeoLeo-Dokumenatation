@@ -89,7 +89,7 @@ Der hier verwendete Algorithmus wurde bereits [in der Methodendokumentation](met
 
 Algorithmus:
 - Eine Punktwolke wird als Ursprung gewählt:
-> Der Ursprung ist die Instanz, in der wir uns befinden
+> Der Ursprung ist die Instanz, in der wir uns befinden.
 - Der Offset wird über den Header geholt:
 ```python
 thisOffset = self.file.header.get_offset()
@@ -119,3 +119,61 @@ outFile.close()
 
 
 # GML-Eingabe
+GeoLeo soll neben der Verwendung von .las-Dateien für die Daten der Punktwolken auch eine Schnittstelle zum Einlesen der Katasterdaten bereitstellen, damit die Punktwolken anhand der Katasterdaten ausgeschnitten werden können. Dabei geht es nur um das Einlesen der Katasterdaten, nicht aber um das Ausgeben, weil das Produkt der Software nur Punktwolken als Daten beinhaltet und die Katasterdaten nur zur Findung dienen.
+
+Zur Umsetzung dieser Anforderung dienen drei verschiedene Klassen:
+```python
+class Cadaster:
+class Coordinate:
+class Building:
+```
+>Die Klasse "Cadaster" ist eine Struktur zum Speichern von Gebäuden.  
+
+>Die Klasse "Building" ist eine Struktur zum Speichern von Koordinaten, die zu einem Gebäude gehören. 
+
+>Die Klasse "Coordinate" setzt eine Koordinate um. Die Klassenvariablen sind somit ``x``, ``y`` und ``z``. Es werden die Methoden ``__eq__`` und ``__hash__`` überladen, damit die Koordinaten vernünftig auf Gleichheit geprüft werden können und damit eine Koordinate als Key in einer HashMap genutzt werden kann.
+
+```python
+def __eq__(self, other):
+    return self.x == other.x and self.y == other.y and self.z == other.z
+def __hash__(self):
+    return self.x.__hash__() + 7 * self.y.__hash__()
+```
+
+## Eingabe
+
+Das Einlesen einer .gml-Datei erfolgt mit Hilfe von drei verschiedenen Methoden. Die Hauptmethode hierfür ist die Methode "getBuildings", die jeweils die Methoden "getBuilding" und "getXML_Element" aufruft.
+
+**getBuildings:**  
+Zuerst musst die Datei geöffnet werden und aus der XML-Struktur das Wurzelelement erhalten werden.
+```python
+tree = ET.parse(fileName)
+root = tree.getroot()
+```
+Danach wird mittels einer for-Schleife nach "cityObjectMember" gesucht. Da so ein "CityObjectMember" aber nicht unbedingt ein Gebäude sein muss, sondern irgendein Objekt in der Stadt, wird mit Hilfe der Methode ``getXML_Element(elems, xml_elem)`` nach einem Gebäude gefiltert. 
+```python
+xml_elem = xml_elem.find(elems[0])
+if len(elems) > 1:
+    elems.pop(0)
+    xml_elem = getXML_Element(elems, xml_elem)
+    return xml_elem
+```
+Aus dem XML-Objekt können nun die Punkte entnommen werden. Aus diesen Punkten gilt es nun noch ein Gebäude gemäß unserer Klassendefinition für ein Gebäude mit Koordinaten zu erstellen und dies in die Liste aller Gebäude einzutragen.
+Das erstellen eines Gebäudes passiert in ``getBuilding(points)``:  
+ ```python
+building = cadaster.Building()
+building.coordinates = list()
+for counter in range(0, len(points)):
+    coord = (counter + 1) % 3
+    if coord == 1:
+        x = float(points[counter])
+    elif coord == 2:
+        y = float(points[counter])
+    elif coord == 0:
+        z = float(points[counter])
+        coord = cadaster.Coordinate(x, y, z)
+        building.coordinates.append(coord)
+ ```
+Das Anfügen an die Liste passiert als letzter Schritt in der beschriebenen Hauptmethode zum Einlesen mit folgendem Schritt: ``buildings.append(building)``.
+
+Somit wären nun auch die Katasterdaten neben den Daten zur Punktwolke eingelesen.
