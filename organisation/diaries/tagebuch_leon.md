@@ -21,8 +21,9 @@
 | OpenGL    | 07. Juni 2019      | 240 Minuten      | Arbeiten an Performance (Verzweifeln an Buffern)     |
 | Gruppenmeeting    | 11. Juni 2019      | 180 Minuten      | Performance Fortschritt, Teambesprechung     |
 | OpenGL    | 11. Juni 2019      | 160 Minuten      | Arbeiten am Parsen in absolute Werte     |
+| OpenGL    | 12. Juni 2019      | 180 Minuten      | Top Down View + Darstellen Katasterdaten     |
 
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit in Minuten: 2490
+Gesamte Arbeitszeit in Minuten: 2670
