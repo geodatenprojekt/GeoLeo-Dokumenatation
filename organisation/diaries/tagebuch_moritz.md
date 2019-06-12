@@ -23,6 +23,7 @@
 | Benutzerhandbuch    | 10. Juni 2019      | 90 Minuten      | Struktur und Parametererklärung      |
 | Teamsitzung   | 11. Juni 2019      | 240 Minuten      | Besprechung + Schreiben von Dokumentation      |
 | Protokoll   | 11. Juni 2019      | 30 Minuten      | Schreiben des Sitzungsprotokolls vom 11. Juni     |
+| Datendokumentation   | 12. Juni 2019      | 240 Minuten      | Fertigstellung von Methodendokumentation + Datendokumentation     |
 
 
-Gesamte Arbeitszeit in Minuten: 2050
+Gesamte Arbeitszeit in Minuten: 2290
