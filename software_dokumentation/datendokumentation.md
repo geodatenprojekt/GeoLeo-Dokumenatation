@@ -144,7 +144,6 @@ def __hash__(self):
 
 Das Einlesen einer .gml-Datei erfolgt mit Hilfe von drei verschiedenen Methoden. Die Hauptmethode hierfür ist die Methode "getBuildings", die jeweils die Methoden "getBuilding" und "getXML_Element" aufruft.
 
-**getBuildings:**  
 Zuerst musst die Datei geöffnet werden und aus der XML-Struktur das Wurzelelement erhalten werden.
 ```python
 tree = ET.parse(fileName)
