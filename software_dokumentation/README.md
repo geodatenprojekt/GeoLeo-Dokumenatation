@@ -11,8 +11,8 @@ Unter diesem Aspekt werden wesentliche Aspekte im Quellcode vorgestellt.
 >**Installationsdokumentation:**  
 Dem Nutzer werden Systemanforderungen erläutert und wie die Software auf dem Zielsystem zur Ausführung gebracht werden kann.
 
->**Benutzerdokumentation:**  
-Hier wird dem Nutzer Informationsmaterial bereitgestellt. Dieses Informationsmaterial tritt in Form des Benutzerhandbuchs auf.
+>**Benutzerhandbuch:**  
+Hier wird dem Nutzer Informationsmaterial bereitgestellt. Dieses Informationsmaterial tritt in Form des Benutzerhandbuchs auf und soll dem Nutzer die Bedienung und Umgang mit der Software erleichtern.
 
 >**Datendokumentation:**  
 Hier wird auf die zu bearbeitenden Daten eingegangen. Im Bezug auf GeoLeo wird dabei auf die verwendeten Datentypen der Punktwolken (.las) und Katasterdaten (.gml) eingegangen. Hier wird auch auf die genutzen Importschnittstellen für die Dateitypen eingegangen.

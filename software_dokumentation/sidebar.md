@@ -2,7 +2,7 @@
 
 * [Übersicht](/)
 * [Installationsdokumentation](installationsdokumentation.md)
-* [Benutzerdokumentation](benutzerdokumentation.md)
+* [Benutzerhandbuch](benutzerhandbuch.md)
 * [Projektdokumente](projektdokumente.md)
 * [Methodendokumentation](methodendokumentation.md)
 * [Datendokumentation](datendokumentation.md)
