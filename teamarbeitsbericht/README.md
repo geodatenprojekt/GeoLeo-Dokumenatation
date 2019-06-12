@@ -19,7 +19,7 @@ Justin Drögemeier diente im Zuge des Projekts als Schnittstelle für das Team u
 
 ### Moritz Withöft, Dokumentationsmanager
 
-Moritz Withöft at jedes Treffen ausführlich protokolliert und war größtenteils für Dokumentationen zuständig bzw. hat größtenteils die schriftliche Arbeit übernommen. Er hat Justin Drögemeier bei der Planung von Meilensteinen sowie bei der Aufteilung der Teamitglieder auf die einzelnen Rollen unterstützt. Weiterhin koordinierte er die Aufteilung des Teams auf das Schreiben der verschiedenen Projektdokumentationsberichte und erstellte eine dafür geeignete Dokumentenstruktur. Moritz programmierte außerdem im Zuge der Projektarbeit die Kommandozeilenparameter sowie das Parsen und die Verarbeitung hin dieser zu einer guten Schnittstelle.
+Moritz Withöft hat jedes Treffen ausführlich protokolliert und war größtenteils für die Dokumentationen zuständig bzw. hat größtenteils die schriftliche Arbeit übernommen. Er hat Justin Drögemeier bei der Planung von Meilensteinen sowie bei der Aufteilung der Teamitglieder auf die einzelnen Rollen unterstützt. Weiterhin koordinierte er die Aufteilung des Teams auf das Schreiben der verschiedenen Projektdokumentationsberichte und erstellte eine dafür geeignete Dokumentenstruktur. Moritz programmierte außerdem im Zuge der Projektarbeit die Kommandozeilenparameter sowie das Parsen und die Verarbeitung hin dieser zu einer guten Schnittstelle.
 
 ### Hannes Rüffer
 
