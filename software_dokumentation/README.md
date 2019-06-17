@@ -23,3 +23,5 @@ Um eine qualitativ hochwertige Software anbieten zu können, ist das Erzeugen vo
 >**Projektdokumente:**  
 Zu jedem Projekt gehört das Anlegen von Dokumenten, wie beispielsweise Ziele und Anforderungen, Diagramme etc. Die einzelnen Dokumente werden hier vorgestellt.
 
+>**Weiteres:**  
+Abgesehen von den schon aufgelisteten Punkten finden Sie in der Navigationsleiste noch weitere Projektartefakte, die den Verlauf und die Arbeit am Projekt dokumentieren. Hierzu gehören beispielsweise die Meilensteinplanung und weitere Dokumente.
