@@ -51,6 +51,53 @@ else: # Kein gültiger Pfad - Error
 
 # Front-End
 
+Das Front-End in GeoLeo übernimmt Funktionen in Form von GUI sowie Useranpassungen und die Darstellung der vom Back-End berechneten und gelieferten Daten. Im Folgenden werden die wichtigsten Funktionen im Front-End mit Hilfe von Beschreibungen sowie Code-Snippets genauer erläutert.
+
+## Darstellung
+
+**Koordinaten:**  
+Zum Darstellen der Katasterdaten und der Punktwolken wird OpenGL verwendet. OpenGL gibt es auch für Python und wird mit unserem GUI-Toolkit Tkinter [kombiniert](https://github.com/jonwright/pyopengltk).
+
+Um die Punktwolke schön Darzustellen, soll diese etwas skaliert werden. Dafür wird für alle y-Werte die kleinste y-Koordinate abgezogen und anschließend mit dem ``Faktor 1000`` multipliziert. Auf diese Weise fängt die Punktwolke beim y-Wert ``0`` an und kann sinnvoll dargestellt werden.
+```python
+for y in range(0, 3):
+    curr = list[x][y]
+    curr -= self.min[y]
+    curr = int(curr * 1000)
+    inner.append(curr)
+```
+Weiterhin hat man sich gegen die Verwendung der bereits vorhandenen Koordianten aus einer Punktwolke entschieden, weil es sonst zu Rundungsfehlern kommen kann und eine exakte Darstellung gewährleistet sein soll. Deshalb wurden diese Koordinaten an das Koordinatensystem der Katasterdaten angepasst, um beide Darstellungen im gleichen Format vorliegen zu haben.
+
+**Farbdarstellung:**  
+Um die gegebenen Farbwerte aus den Punktwolken in OpenGL korrekt anzeigen zu können, musste eine Umrechnung der Farbwerte vorgenommen werden. Die gegebenen Farbwerte wurden dabei mit dem ``Faktor 1000`` multipliziert, um Zahlen zwischen ``0 und 65536`` zu erhalten. Anschließend konnten diese Farbwerte durch ``65536`` geteilt werden, um in OpenGL die RGB-Werte gemäß nach Spezifikation korrekt setzen zu können.
+```python
+for y in range(3, 6):
+    curr = list[x][y]
+    curr += 1000
+    curr = int(curr)
+    inner.append(curr)
+glColor3d(point[3] / 65536, point[4] / 65536, point[5] / 65536)
+```
+
+**Anzeige:**  
+Um nun die Punktwolken bzw. die Katasterdaten endgültig anzeigen zu können, werden bei der Initialisierung die einzelnen Punkte in eine Displayliste gespeichert. Diese Liste sorgt dafür, dass bei ständigem Wiederholen des Zeichnens eine ausreichende Performanz gegeben ist und hohe FPS-Zahlen erreicht werden. Ohne diese Vorgehensweise würden die FPS auf ``1/20`` der aktuellen zurückgehen.  
+Dieses Vorgehen ist hier einmal exemplarisch für die Katasterdaten als Code-Snippet dargestellt:
+```python
+self.cadlist = glGenLists(1)
+glNewList(self.cadlist, GL_COMPILE)
+glColor3d(1, 0, 0)
+vertices = []
+
+glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
+    for building in cad.buildings:
+        glBegin(GL_POLYGON)
+            for coord in building.coordinates:
+                x = self.parser.parse_coords(coord._x, coord._y, coord._z)
+                glVertex3d(x[0], x[2], x[1])
+                vertices.append((x[0], x[2], x[1]))
+            glEnd()
+        glEndList()
+```
 
 # Back-End
 
