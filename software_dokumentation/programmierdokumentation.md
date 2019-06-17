@@ -53,7 +53,66 @@ else: # Kein gültiger Pfad - Error
 
 Das Front-End in GeoLeo übernimmt Funktionen in Form von GUI sowie Useranpassungen und die Darstellung der vom Back-End berechneten und gelieferten Daten. Im Folgenden werden die wichtigsten Funktionen im Front-End mit Hilfe von Beschreibungen sowie Code-Snippets genauer erläutert.
 
-## Darstellung
+## GUI
+
+Die Front-End GUI wurde in verschiedene Komponenten unterteilt. Dabei wurden 3 Komponenten erstellt, die jeweils ein Model, View und Controller implementieren.
+
+- Input
+- Hauptfenster
+- Output
+
+Im Folgenden wird dieses Prinzip am Beispiel der Input-Komponente erklärt.
+
+**Model:**  
+Das Model im Input definiert die Datenstruktur. Hier wird der Pfad zur zur .las-Datei benötigt und der Pfad zur .gml-Datei.
+```python
+class Model:
+    def __init__(self):
+        self.lasPath = None
+        self.gmlPath = None
+```
+
+**View:**  
+Die View ist die eigentliche Anzeige für den User. Hier wird also implementiert, was der User sieht. Im Bezug auf den Input sind das die Eingabemöglichkeiten zur Angabe der Dateipfade für .las und .gml. Dabei wird dem Nutzer ein Feld zur Angabe des Pfades über ein grafisches Bedienfeld bereitgestellt. Im hier dargestellten Snippet, sind die wichtigsten Elemente enhalten.
+
+```python
+class View:
+    def __init__(self, root, model):
+        """setup ui via tk""" 
+
+        self.sidepanel.lasBut.bind("<Button>", self.setLas)
+        self.sidepanel.gmlButton.bind("<Button>", self.setGml)
+        self.sidepanel.contBut.bind("<Button>", self.cont)
+
+    def choosePath(self):
+        return filedialog.askdirectory()
+
+    def setLas(self, event):
+        self.model.lasPath.set(self.choosePath())
+
+    def setGml(self, event):
+        self.model.gmlPath.set(self.choosePath())
+		
+    def cont(self, event):
+        pass
+
+```
+
+**Controller:**  
+Der Controller regelt die Kommunikation bzw. die Übertragung der Daten zwischen View und Model. Dabei wird dem erstellten View eine Referenz auf das Model mitgegeben, sodass Aktualisierungen direkt übernommen und angezeigt werden können.
+
+```python
+from model import Model
+from view import View
+
+class Controller:
+    def __init__(self):
+        self.root = Tk.Tk()
+        self.model = Model()
+self.view = View(self.root, self.model)
+```
+
+## Darstellungslogik
 
 **Koordinaten:**  
 Zum Darstellen der Katasterdaten und der Punktwolken wird OpenGL verwendet. OpenGL gibt es auch für Python und wird mit unserem GUI-Toolkit Tkinter [kombiniert](https://github.com/jonwright/pyopengltk).
