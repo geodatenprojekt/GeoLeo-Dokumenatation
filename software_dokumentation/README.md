@@ -23,5 +23,3 @@ Um eine qualitativ hochwertige Software anbieten zu können, ist das Erzeugen vo
 >**Projektdokumente:**  
 Zu jedem Projekt gehört das Anlegen von Dokumenten, wie beispielsweise Ziele und Anforderungen, Diagramme etc. Die einzelnen Dokumente werden hier vorgestellt.
 
->**Systemdokumente:**  
-Hier wird das System im Allgemeinen beschreiben. Bestehend aus Funktionen, Ergebnissen bzw. den Erzeugnissen, wird das Programm allgemein zusammengefasst.
