@@ -1,1 +1,1 @@
-# GeoLeo - Testbericht
+# GeoLeo - Konzept
