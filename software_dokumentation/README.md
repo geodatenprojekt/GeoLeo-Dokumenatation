@@ -1,4 +1,4 @@
-# GeoLeo - Softwaredokumentation
+# GeoLeo - Projektdokumentation
 
 Im Folgenden werden verschiedene Aspekte der Software dokumentiert, die ggf. auf unterschiedliche Zielgruppen ausgerichtet sind. Diese verschiedene Aspekte werden nun erst erläutert. Danach wird der Aspekt der Dokumentation am Projekt GeoLeo umgesetzt.
 
