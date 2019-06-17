@@ -43,8 +43,16 @@ Valentin Hertel hat die Tests für alle Pythonmodule geschrieben. Seine Aufgabe 
 
 ## Kommunikation im Team (ca. 200 Wörter)
 
+Die Kommunikation innerhalb des Teames war gut. Die Art der Kommunikation bestand größtenteils aus den wöchentlichen Treffen am Dienstag Mittag bis meist Nachmittag. Hier wurden dann die Ergebnisse vorgestellt und eventuelle Probleme. Man hat dann zusammen im Team versucht, Ideen für das Problem zu finden und hat dann teilweise schon vor Ort eine Lösung gefunden. Es wurden außerdem die nächsten Ziele besprochen bzw. was in der Woche erledigt werden muss. Falls doch kein Treffen statt gefunden hat, hat sich die Kommunikation per Whats App oder Teamspeak abgespielt. Hier haben sich dann die gleichen Vorgehensweisen abgespielt, ähnlich wie zu dem wöchentlichen Treffen innerhalb der Fachhochschule.
+
 ## Zuverlässigkeit (ca. 200 Wörter)
+
+Das Team war größtenteils Zuverlässig. Die Meilensteine wurden zwar nicht alle zu 100% an ihren Abschlussdatum abgeschlossen, dies lag aber unter anderem auch daran, dass Problematiken während der Entwicklung enstanden sind, die Anfangs noch unbekannt waren, da für jeden das Team bis zum Projekt noch recht unbekannt war. Dennoch hat man neue Ziele anhand der Situation gebildet und die wurden dann anschließend auch größtenteils eingehalten. Auch das einhalten der Treffen lief gut ab und man war bei den meisten Treffen innerhalb der Fachhochschule vollständig. Falls jemand doch nicht erscheinen konnte, hatte derjenige sich vornherein abgemeldet und man war dementsprechend darauf vorbereitet. Es enstand also keine einziges Mal die Situation, dass jemand unerwarteter Weise nicht erschien.    
 
 ## Teamfähigkeit (ca. 350 Wörter)
 
+Die Teamfähigkeit war in Ordnung. Diskussionen sowie das finden von Lösungen für Probleme hat gut funktioniert, ohne zu eskalieren oder andere Meinungen zu untergraben. Was eher nicht so gut gelaufen ist, ist das Dokumentieren von eigenen Schnittstellen. Das hat dazu geführt, dass spätere Einarbeitungen von Schnittstellen sich eher schwierig gestaltet hat und somit schnell die Situation entstand, dass jemand für ein Gebiet zuständig ist und sich darum eigenständig kümmern muss. Dementsprechend hat sich die späterer Arbeitsverteilung somit schwierig gestaltet und es konnten die Teamressourcen nicht vollständig genutzt werden. Hierfür sollte man sich also festhalten, dass man vornherein die Schnittstellen komplett festlegt und hier eine Einigung findet, damit solche Sitationen nicht entstehen und die Teamfähigkeit nochmals gesteigert werden kann, da die Kommunikation ziemlichg gut war und man so Ressourcen verbraucht hat. 
+
 ## Fazit (ca. 400 Wörter)
+
+
