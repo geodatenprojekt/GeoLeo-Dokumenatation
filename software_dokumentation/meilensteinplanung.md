@@ -8,7 +8,7 @@
     * Grundlegende Parametrisierung einbauen (Moritz Withöft)
     * Daten grafisch darstellen (Dejan Novakovic, Leon Hornig)
 * 21.05
-    * Koordinatensystem anpassen (Justin, Hannes, Michelle, )
+    * Koordinatensystem anpassen (Justin Drögemeier, Hannes Rüffer, Michelle Vorwerk)
 * 28.05
     * GUI Option verschieben (Dejan Novakovic, Leon Hornig)
 * 05.06

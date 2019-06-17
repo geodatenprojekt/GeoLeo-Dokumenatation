@@ -133,7 +133,7 @@ Zu dieser Sitzung wurden die akutellen Fortschritte der jeweiligen Arbeitsgruppe
 
 # 14/05/2019 und 21/05/2019
 
-Die Protokolle aus den beiden Sitzungen entfallen. An diesen Terminen wurde weiter konzentriert und effizient am Projekt gearbeitet, daher ist eine detaillierte Protokollfürhung der Teambesprechungen obsolet.
+Die Protokolle aus den beiden Sitzungen entfallen. An diesen Terminen wurde weiter konzentriert und effizient am Projekt gearbeitet, daher ist eine detaillierte Protokollführung der Teambesprechungen obsolet.
 
 # 28/05/2019
 
