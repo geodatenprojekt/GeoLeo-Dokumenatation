@@ -10,3 +10,4 @@
 * [Testdokumentation](testdokumentation.md)
 * [Sitzungsprotokolle](sitzungsprotokolle.md)
 * [Meilensteinplanung](meilensteinplanung.md)
+* [Teamarbeitsbericht](teamarbeitsbericht.md)
