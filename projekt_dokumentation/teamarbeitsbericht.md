@@ -55,4 +55,5 @@ Die Teamfähigkeit war in Ordnung. Diskussionen sowie das Finden von Lösungen f
 
 ## Fazit
 
+Im großen und ganzen war die Teamarbeit gut. Das lag unter anderem an der guten Kommunikation, da man sich regelmäßig getroffen hat und den aktuellen Stand besprochen hat. Man konnte sich ebenso größtenteils Verlassen, dass die Aufgaben erledigt wurdens sind. Die Teamfähigkeit war der schwächste Punkt, da man hier zu wenig spezifiziert bzw. dokumentiert hat. Dadurch war es Schwierig sich in Themen einzuarbeiten, die von anderen entstanden sind. Dennoch war jeder Hilfsbereit und hat sein bestes gegeben, falls jemand etwas unklar war.  
 
