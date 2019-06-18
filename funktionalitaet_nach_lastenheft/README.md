@@ -1,1 +1,0 @@
-# GeoLeo - Funktionalität nach Lastenheft

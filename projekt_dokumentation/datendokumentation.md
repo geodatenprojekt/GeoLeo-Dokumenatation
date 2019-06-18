@@ -26,7 +26,7 @@ Neben den verwendeten .las-Dateien, tritt der zweite Dateityp in Form von .gml-D
 
 **Geography Markup Language:**  
 Die Endung .gml steht für Geography Markup Language, die eine XML-Grammatik beinhaltet, die von dem OGC (Open Geospatial Consortium) definiert wurde.
-GML ermöglicht hierbei die Bereitstellung von Geodaten in Form von Objekten (in unserem Fall Gebäude) mit Attributen, Relationen und der entsprechenden Geometrie.
+GML ermöglicht hierbei die Bereitstellung von Geodaten in Form von Objekten (in unserem Fall Gebäude) mit Attributen, Relationen und der entsprechenden Geometrie. In GeoLeo werden dabei ``LoD 1-Dateien`` verwendet.
 
 **Dateiinhalt:**  
 Eine GML-Datei stellt dabei verschiedene Attribute bereit, die nicht alle von GeoLeo benötigt werden, aber im Interesse der Vollständigkeit trotzdem dargelegt werden sollen:

@@ -1,24 +1,23 @@
 # Lastenheft
 
-## Einführung
+# Einführung
 
 Das Projekt handelt von der Verarbeitung von Geodaten, bestehend aus Punktwolken und Katasterdaten einer Stadt . Die Anwendung soll über eine Benutzeroberfläche bedienbar und über die Kommandozeile parametrisierbar sein. Das Programm verarbeitet die Punktwolke zusammen mit den Katasterdaten und erzeugt für jedes Gebäude eine zugeschnitte Punktwolke.
 
 
 
-## Beschreibung des Ist-Zustands
+# Beschreibung des Ist-Zustands
 
 Derzeit muss man mühselig die Katasterdaten und Punktwolken übereinander legen und per Hand zuschneiden. Dieser Vorgang kostet für eine Vielzahl von Gebäuden sehr viel Zeit und Aufwand.
 
 
 
-## Beschreibung des Soll-Konzepts
+# Beschreibung des Soll-Konzepts
 
 Die Anwendung schneidet automatisch die von dem Benutzer zur Verfügung gestellten Katasterdaten und Punktwolken zurecht. Gegebenfalls muss der Benutzer die Katasterdaten manuell über die Benutzeroberfläche so verschieben, dass diese mit der Punktwolke übereinstimmen. Es resultieren einzelne Punktwolken für jedes Gebäude aus der Punktwolke.
 
 
-
-## Beschreibung von Schnittstellen
+# Beschreibung von Schnittstellen
 
 - Kommandozeile
 - Graphische Benutzeroberfläche
@@ -29,7 +28,7 @@ Die Anwendung schneidet automatisch die von dem Benutzer zur Verfügung gestellt
 
 
 
-## Funktionale Anforderungen
+# Funktionale Anforderungen
 
 - Automatisches Ausschneiden von Gebäuden, anhand der Grundrisse
 - Entfernen von Objekten, die nicht zu einem Gebäude gehören
@@ -41,53 +40,60 @@ Die Anwendung schneidet automatisch die von dem Benutzer zur Verfügung gestellt
 
 
 
-## Nichtfunktionale Anforderungen
-### Benutzbarkeit
+# Nichtfunktionale Anforderungen
+## Benutzbarkeit
 
 Einfache und intuitive Interaktion mit Programm und graphischer Benutzeroberfläche.
 
-### Zuverlässigkeit
+## Zuverlässigkeit
 
 Die Präzision des Ausschneidens kann, aufgrund von unvorhersehbaren Umwelteinflüssen und ungenauen Benutzereingaben, variieren. 
 
 Im Falle eines Programmabsturzes soll die manuelle Verschiebung des Benutzers gesichert werden, sodass diese nicht nochmal vorgenommen werden muss.
 
-### Effizienz
+## Effizienz
 
 Da das Programm mit großen Dateien arbeitet, sollte die Anwendung performant programmiert sein, damit die Wartezeit nicht zu groß ist.
 
-### Änderbarkeit
+## Änderbarkeit
 
 Die Anwendung soll eine strukturierte Architektur haben. Der Quelltext soll sich an einen gewissen Codestil halten.
 
-### Übertragbarkeit
+## Übertragbarkeit
 
 Die Anwendung soll betriebssystemunabhängig sein.
 
 
+# Risikoakzeptanz
 
-## Risikoakzeptanz
-
-Showstopper sind zu vermeiden.
-
-
-
-## Skizze des Entwicklungszyklus und der Systemarchitektur oder auch ein Struktogramm
-
-tbd.
+Das Programm richtet sich an professionelle Anwender, nicht an die breite Masse, und soll in normaler Benutzung ohne Fehler laufen.
 
 
 
-## Lieferumfang
+# Skizze des Entwicklungszyklus und der Systemarchitektur oder auch ein Struktogramm
 
-Das fertige Programm zusammen mit der graphischen Benutzeroberfläche.
+**Entwicklungszyklus einfaches Kanban**
+
+![](https://i.imgur.com/aNhMioF.png)
+
+**Systemarchitektur**
+
+![](https://i.imgur.com/TiLvNdc.png)
 
 
 
-## Abnahmekriterien
+# Lieferumfang
 
-tbd.
+Zwei Programme, dass erste ist die Konsolenanwendung und das zweite mit einer graphische Benutzeroberfläche.
 
-## Branchenspezifikation
 
--Keine-
+# Abnahmekriterien
+
+- Anpassen des Offsets Katasterdaten oder der Punktwolke
+- Genaues auschschneiden der einzelnen Gebäude
+- Darstellung der Katasterdaten und Punktwolke
+- Einfache Benutzung über die Konsole
+
+# Branchenspezifikation
+
+Keine

@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Lastenheft](lastenheft.md)
 * [Risikomanagement](risikomanagement.md)
 * [Projekttagebuch Justin](diaries/tagebuch_justin.md)
 * [Projekttagebuch Dejan](diaries/tagebuch_dejan.md)
