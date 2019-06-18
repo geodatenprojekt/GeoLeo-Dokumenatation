@@ -25,5 +25,8 @@
 | Protokoll   | 11. Juni 2019      | 30 Minuten      | Schreiben des Sitzungsprotokolls vom 11. Juni     |
 | Datendokumentation   | 12. Juni 2019      | 240 Minuten      | Fertigstellung von Methodendokumentation + Datendokumentation     |
 | Dokumentation   | 13. Juni 2019      | 90 Minuten      | Programmierdokumenation + Benutzerhandbuch     |
+| Dokumentation   | 17. Juni 2019      | 300 Minuten      | Programmierdokumenation fertiggestellt + Korrekturlesen     |
 
-Gesamte Arbeitszeit in Minuten: 2380
+
+
+Gesamte Arbeitszeit in Minuten: 2680
