@@ -1,19 +1,18 @@
 # Installationsdokumentation
 
-## Prerequisites
+## Voraussetzungen
 
-You will need following programs to run GeoLeo:
+Man benötigt folgende Programme um GeoLeo zu installieren:
 * [git](https://git-scm.com)
 * [Python 3.6](https://python.org) or higher
 
-## Downloading GeoLeo
+## GeoLeo Herunterladen
 
-To download the program, clone our repository from GitHub via git
-`git clone https://github.com/geodatenprojekt/GeoLeo`
+Das Projekt kann von GitHub via dem git Kommando `git clone https://github.com/geodatenprojekt/GeoLeo` heruntergeladen werden
 
-## Installing required Libraries
+## Benötige Bibliotheken
 
-GeoLeo requires some Python packages that are downloadable via `pip`. The required packages are:
+GeoLeo benötigt einige Python Bibliotheken, die via `pip` herunterladbar sind. Folgende Bibliotheken sind benötig:
 * argparse
 * unittest
 * laspy
@@ -22,4 +21,4 @@ GeoLeo requires some Python packages that are downloadable via `pip`. The requir
 * tkinter
 * PyOpenGL
 
-To download them you need to run the command `pip3 install <package>`.
+Mit dem Kommando `pip3 install <package>` werden diese Heruntergeladen
