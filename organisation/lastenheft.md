@@ -65,29 +65,36 @@ Die Anwendung soll eine strukturierte Architektur haben. Der Quelltext soll sich
 Die Anwendung soll betriebssystemunabhängig sein.
 
 
-
 ## Risikoakzeptanz
 
-Showstopper sind zu vermeiden.
+Das Programm richtet sich an professionelle Anwender, nicht an die breite Masse, und soll in normaler Benutzung ohne Fehler laufen.
 
 
 
 ## Skizze des Entwicklungszyklus und der Systemarchitektur oder auch ein Struktogramm
 
-tbd.
+**Entwicklungszyklus einfaches Kanban**
+
+![](https://i.imgur.com/aNhMioF.png)
+
+**Systemarchitektur**
+
+![](https://i.imgur.com/TiLvNdc.png)
 
 
 
 ## Lieferumfang
 
-Das fertige Programm zusammen mit der graphischen Benutzeroberfläche.
-
+Zwei Programme, dass erste ist die Konsolenanwendung und das zweite mit einer graphische Benutzeroberfläche.
 
 
 ## Abnahmekriterien
 
-tbd.
+- Anpassen des Offsets Katasterdaten oder der Punktwolke
+- Genaues auschschneiden der einzelnen Gebäude
+- Darstellung der Katasterdaten und Punktwolke
+- Einfache Benutzung über die Konsole
 
 ## Branchenspezifikation
 
--Keine-
+Keine
