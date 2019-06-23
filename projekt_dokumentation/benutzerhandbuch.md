@@ -48,3 +48,11 @@ Unter gewissen Umständen kann es nötig sein, dass der Nutzer die Versionsnumme
 
 > **Beispiel - Die einzelnen Parameter lassen sich kombinieren:**  
 ```programm -c ../kadasterdaten/ -p ../punktwolken/ -o ../ausgabeverzeichnis -x -2.5```
+
+## Beispiel
+
+Hier sehen Sie, wie eine getätigte Eingabe in der Konsole aussehen könnte:
+
+
+# Bedienung der GUI
+
