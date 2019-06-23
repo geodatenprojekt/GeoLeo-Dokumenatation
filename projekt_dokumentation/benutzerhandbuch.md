@@ -1,7 +1,7 @@
 # Benutzerhandbuch
 
 # Vorwort
-Das folgende Benutzerhandbuch soll den Umgang mit der Software "GeoLeo" erleichtern. GeoLeo ist ein Produkt, um aus Punktwolken Gebäude zu extrahieren, die mit Hilfe von Katasterdaten identifiziert werden können. Dieses Benutzerhandbuch behandelt dabei wie GeoLeo zu verwenden ist und soll dem Nutzer Hilfestellungen zu diversen Fragen geben. Dabei wird im Folgenden auf die einzelnen Aspekte und Möglichkeiten eingegangen, die Ihnen mit GeoLeo zur Verfügung stehen. Um sich der angebotenen Inhalte vertraut zu machen, orientieren sie sich bitte am ``Inhaltsverzeichnis`` des Benutzerhandbuchs ``links in der Navigationsleiste``.
+Das folgende Benutzerhandbuch soll den Umgang mit der Software "GeoLeo" erleichtern. GeoLeo ist ein Produkt, um aus Punktwolken Gebäude zu extrahieren, die mit Hilfe von Katasterdaten identifiziert werden können. Dieses Benutzerhandbuch behandelt dabei, wie GeoLeo zu verwenden ist und soll dem Nutzer Hilfestellungen zu diversen Fragen geben. Dabei wird im Folgenden auf die einzelnen Aspekte und Möglichkeiten eingegangen, die Ihnen mit GeoLeo zur Verfügung stehen. Um sich der angebotenen Inhalte vertraut zu machen, orientieren sie sich bitte am ``Inhaltsverzeichnis`` des Benutzerhandbuchs ``links in der Navigationsleiste``.
 
 Wir wünschen Ihnen viel Freude im Umgang mit GeoLeo!
 
