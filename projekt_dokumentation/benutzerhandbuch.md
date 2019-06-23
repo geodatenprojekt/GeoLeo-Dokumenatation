@@ -51,7 +51,9 @@ Unter gewissen Umständen kann es nötig sein, dass der Nutzer die Versionsnumme
 
 ## Beispiel
 
-Hier sehen Sie, wie eine getätigte Eingabe in der Konsole aussehen könnte:
+Hier sehen Sie, wie eine getätigte Eingabe in der Konsole aussehen könnte. Wenn die angegebenen Pfade nicht verfügbar sind oder nicht die nötigen Berechtigungen erfüllt sind, würde eine Fehlermeldung ausgegeben.
+
+![cmdargs Beispiel](include/benutzerhandbuch_cmdargs.jpg)
 
 
 # Bedienung der GUI
