@@ -4,15 +4,22 @@
 
 | Aufgabe/Arbeit   |      Wann?     |  Wie lange? | Notizen |
 |:-----------------|---------------:|------------:|:--------|
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
+| Gruppenmeeting    | 9. April 2019      | 120 Minuten      | Kick-Off und Organisation |
+| Beschäftigung mit Frameworks    | 13. April 2019      | 60      | Informieren über Frameworks |
+| Gruppenmeeting  | 16. April| 120 | Klärung von Fragen, Organisation, Aufgabenverteilung |
+| Katastater Daten    | 20. April | 60      | Formatierung .LAS beschäftigt |
+| Gruppenmeeting    | 23. April 2019      | 180 Minuten      | Klärung von Fragen, Einteilung der Aufgaben |
+| Beschäftigung CI Integration   | 23.April      | 30 Minuten      | Beschäftigung CI Integration |
+| Gruppenmeeting    | 30. April 2019      | 180 Minuten      | Mitwirkung Dokumente |
+| Logging | 7. Mai 2019 | 30 Minuten | Einarbeitung Logging in Python |
+| Logging | 18. Mai 2019 | 60 | Beendingung Logging und der dazugehörigen Doku |
+| Gruppenmeeting    | 21. Mai 2019      | 150 Minuten      | Besprechung und Fehlerdiskussion sowie deren Behebung |
+| Teamsitzung    | 4. Juni 2019      | 180 Minuten      | Besprechung und Arbeit am Projekt      |
+| Teambericht | 14. Juni 2019 | 120 Minuten | Teamarbeitsbericht |
+| Projektdokumente | 18.Juni 2019 | 30 Minuten | Dokumente sammeln |
+| Teamsitzung  | 18. Juni 2019      | 240 Minuten      | Überarbeitungen und Anpassungen |
 
-
-Gesamte Arbeitszeit in Minuten: 
+Gesamte Arbeitszeit in Minuten: 1560
 
 # Tagebuch Moritz Withöft
 
