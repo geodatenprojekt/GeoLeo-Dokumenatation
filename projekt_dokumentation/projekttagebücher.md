@@ -95,15 +95,30 @@ Gesamte Arbeitszeit: 4050 Minuten
 
 | Aufgabe/Arbeit   |      Wann?     |  Wie lange? | Notizen |
 |:-----------------|---------------:|------------:|:--------|
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
-| --    | --      | --      | --      |
+| Gruppenmeeting | 09. April 2019 | 120 Minuten | Kick-Off und Organisation |
+| Gruppenmeeting | 16. April 2019 | 120 Minuten | Klärung von Fragen, Organisation, Aufgabenverteilung |
+| Dokumentation  | 22. April 2019 | 140 Minuten | Use-Case- und Sequenzdiagramm erstellt |
+| Gruppenmeeting | 23. April 2019 | 180 Minuten | Klärung von Fragen, Einteilung der Aufgaben |
+| Frontend       | 24. April 2019 | 200 Minuten | Evaluation von GUI Frameworks (Tk, PyQT, Kivy) |
+| Frontend       | 27. April 2019 | 150 Minuten | Einlesen in Tk, erstes GUI Konzept |
+| Gruppenmeeting | 30. April 2019 | 180 Minuten | Meilensteinplanung hinzugefügt |
+| Frontend       | 06. Mai 2019   | 120 Minuten | MVC Pattern überlegen, erste Implementierung | 
+| Frontend       | 01. Mai 2019   | 50 Minuten  | Evaluation SVG oder OpenGL
+| Gruppenmeeting | 21. Mai 2019   | 150 Minuten | Besprechung und Fehlerdiskussion sowie deren Behebung |
+| Frontend       | 27. Mai 2019   | 130 Minuten | Änderung am MVC Pattern wegen imkompatibilität |
+| Gruppenmeeting | 28. Mai 2019   | 180 Minuten | Fehlerbehebung und Fortschrittsbesprechung |
+| Frontend       | 29. Mai 2019   | 120 Minuten | Erste versuche OpenGL in TK einzubinden |
+| Frontend       | 30. Mai 2019   | 50 Minuten  | Einbindung von OpenGL mit pyopgengltk |
+| Gruppenmeeting | 04. Juni 2019  | 180 Minuten | Besprechung und Arbeit am Projekt |
+| Frontend       | 06. Juni 2019  | 120 Minuten | Letzte UI änderungen
+| Gruppenmeeting | 11. Juni 2019  | 240 Minuten | Besprechung + Schreiben von Dokumentation |
+| Frontend       | 16. Juni 2019  | 80 Minuten  | Functionbinding zu Komponenten |
+| Gruppenmeeting | 18. Juni 2019  | 240 Minuten | Überarbeitungen und Anpassungen |
+| Dokumentation  | 18. Juni 2019  | 60 Minuten  | Klassendiagramm auf neusten Stand bringen |
+| Frontend       | 24. Juni 2019  | 300 Minuten | Zusammenbringen aller Komponenten, Feinschliff, Bugfixes | 
 
 
-Gesamte Arbeitszeit in Minuten: 
+Gesamte Arbeitszeit in Minuten: 3110
 
 # Tagebuch Michelle Vorwerk
 

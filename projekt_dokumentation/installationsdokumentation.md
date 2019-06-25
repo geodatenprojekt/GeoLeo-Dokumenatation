@@ -4,7 +4,8 @@
 
 Man benötigt folgende Programme um GeoLeo zu installieren:
 * [git](https://git-scm.com)
-* [Python 3.6](https://python.org) or higher
+* [Python 3.6](https://python.org) oder höher
+* [OSGeo4W](https://trac.osgeo.org/osgeo4w/) (Oder die Installation von `shapely` und `laspy` über wheels mit eingebundenem GEOS)
 
 ## GeoLeo Herunterladen
 
@@ -14,7 +15,6 @@ Das Projekt kann von GitHub via dem git Kommando `git clone https://github.com/g
 
 GeoLeo benötigt einige Python Bibliotheken, die via `pip` herunterladbar sind. Folgende Bibliotheken sind benötig:
 * argparse
-* unittest
 * laspy
 * shapely
 * numpy
