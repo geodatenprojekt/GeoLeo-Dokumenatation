@@ -15,8 +15,8 @@ Das Projekt kann von GitHub via dem git Kommando `git clone https://github.com/g
 
 GeoLeo benötigt einige Python Bibliotheken, die via `pip` herunterladbar sind. Folgende Bibliotheken sind benötig:
 * argparse
-* laspy
-* shapely
+* laspy [wheel](https://pypi.org/project/laspy/#files)
+* shapely [wheel](https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely)
 * numpy
 * tkinter
 * PyOpenGL
