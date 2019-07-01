@@ -51,9 +51,11 @@ Gesamte Arbeitszeit in Minuten: 1560
 | Teamsitzung  | 18. Juni 2019      | 240 Minuten      | Überarbeitungen und Anpassungen     |
 | Dokumente  | 20. Juni 2019      | 120 Minuten      | Korrekturlesen + Fehlerbehebung     |
 | Struktur  | 20. Juni 2019      | 240 Minuten      | Projektstruktur + Benutzerhandbuch     |
+| Diagramm  | 26. Juni 2019      | 40 Minuten      | Gant Diagramm     |
+| Diagramm  | 1. Juli 2019      | 50 Minuten      | Gant Diagramm um vorher/nachher ergänzt     |
 
 
-Gesamte Arbeitszeit in Minuten: 3280
+Gesamte Arbeitszeit in Minuten: 3370
 
 # Tagebuch Hannes Rüffer
 
