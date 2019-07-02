@@ -9,6 +9,7 @@
 * [Programmierdokumentation](programmierdokumentation.md)
 * [Testdokumentation](testdokumentation.md)
 * [Konzept](konzept.md)
+* [Satzschablonen](satzschablonen.md)
 * [Lastenheft](lastenheft.md)
 * [Risikomanagement](risikomanagement.md)
 * [Sitzungsprotokolle](sitzungsprotokolle.md)

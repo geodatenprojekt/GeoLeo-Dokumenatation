@@ -51,9 +51,11 @@ Gesamte Arbeitszeit in Minuten: 1560
 | Teamsitzung  | 18. Juni 2019      | 240 Minuten      | Überarbeitungen und Anpassungen     |
 | Dokumente  | 20. Juni 2019      | 120 Minuten      | Korrekturlesen + Fehlerbehebung     |
 | Struktur  | 20. Juni 2019      | 240 Minuten      | Projektstruktur + Benutzerhandbuch     |
+| Diagramm  | 26. Juni 2019      | 40 Minuten      | Gant Diagramm     |
+| Diagramm  | 1. Juli 2019      | 50 Minuten      | Gant Diagramm um vorher/nachher ergänzt     |
 
 
-Gesamte Arbeitszeit in Minuten: 3280
+Gesamte Arbeitszeit in Minuten: 3370
 
 # Tagebuch Hannes Rüffer
 
@@ -86,10 +88,9 @@ Gesamte Arbeitszeit in Minuten: 3280
 | Optimierung    | 18. Juni 2019      | 60 Minuten      | MemoryError beim Zwischenspeichern entdeckt       |
 | Optimierung    | 20. Juni 2019      | 120 Minuten      | MemoryError Fehler eingegrenzt, Konzept zur Lösung entwickelt       |
 | Optimierung    | 21. Juni 2019      | 180 Minuten      | MemoryError behoben, cutBuildingFromPointcloud & starter umgeschrieben       |
-| --    | --      | --      | --      |
+| Präsentation für Backend    | 24. Juni 2019      | 240 Minuten      | Bilder, Statistiken erstellt       |
 
-
-Gesamte Arbeitszeit: 4050 Minuten
+Gesamte Arbeitszeit: 4290 Minuten
 
 # Tagebuch Dejan Novakovic
 
@@ -165,11 +166,13 @@ Gesamte Arbeitszeit: 2340 Minuten
 | Gruppenmeeting    | 11. Juni 2019      | 180 Minuten      | Performance Fortschritt, Teambesprechung     |
 | OpenGL    | 11. Juni 2019      | 160 Minuten      | Arbeiten am Parsen in absolute Werte     |
 | OpenGL    | 12. Juni 2019      | 180 Minuten      | Top Down View + Darstellen Katasterdaten     |
+| Gruppenmeeting    | 18. Juni 2019      | 60 Minuten      | Umstellung auf neue Schnittstelle    |
+| OpenGL    | 24. Juni 2019      | 90 Minuten      | Mergen und Anfänge für einlesen von Dateien    |
+| OpenGL & Gruppenmeeting    | 25. Juni 2019      | 300 Minuten      | Algorthmen und Verschieben einfügen    |
+| OpenGL   | 01. Juli 2019      | 150 Minuten      | Feinschliff fertige Programm    |
 
-| --    | --      | --      | --      |
 
-
-Gesamte Arbeitszeit: 2670 Minuten
+Gesamte Arbeitszeit: 3270 Minuten
 
 # Tagebuch Valentin Hertel
 
