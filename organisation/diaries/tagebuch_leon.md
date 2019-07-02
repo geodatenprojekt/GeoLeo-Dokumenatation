@@ -25,8 +25,10 @@
 | Gruppenmeeting    | 18. Juni 2019      | 60 Minuten      | Umstellung auf neue Schnittstelle    |
 | OpenGL    | 24. Juni 2019      | 90 Minuten      | Mergen und Anfänge für einlesen von Dateien    |
 | OpenGL & Gruppenmeeting    | 25. Juni 2019      | 300 Minuten      | Algorthmen und Verschieben einfügen    |
+| OpenGL & Gruppenmeeting    | 01. Juli 2019      | 150 Minuten      | Feinschliff fertige Programm    |
+
 
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit in Minuten: 3120
+Gesamte Arbeitszeit in Minuten: 3270
