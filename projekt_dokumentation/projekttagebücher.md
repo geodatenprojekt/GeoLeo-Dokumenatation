@@ -103,7 +103,7 @@ Gesamte Arbeitszeit: 4290 Minuten
 | Frontend       | 24. April 2019 | 200 Minuten | Evaluation von GUI Frameworks (Tk, PyQT, Kivy) |
 | Frontend       | 27. April 2019 | 150 Minuten | Einlesen in Tk, erstes GUI Konzept |
 | Gruppenmeeting | 30. April 2019 | 180 Minuten | Meilensteinplanung hinzugefügt |
-| Frontend       | 06. Mai 2019   | 120 Minuten | MVC Pattern überlegen, erste Implementierung | 
+| Frontend       | 06. Mai 2019   | 120 Minuten | MVC Pattern überlegen, erste Implementierung |
 | Frontend       | 01. Mai 2019   | 50 Minuten  | Evaluation SVG oder OpenGL
 | Gruppenmeeting | 21. Mai 2019   | 150 Minuten | Besprechung und Fehlerdiskussion sowie deren Behebung |
 | Frontend       | 27. Mai 2019   | 130 Minuten | Änderung am MVC Pattern wegen imkompatibilität |
@@ -176,16 +176,25 @@ Gesamte Arbeitszeit: 3270 Minuten
 | Gruppenmeeting | 9. April 2019 |        120 | Kick-Off und Organisation |
 | Gruppenmeeting  | 16. April 2019 | 90     | Klärung von Fragen, Organisation, Aufgabenverteilung |
 | Gruppenmeeting | 23. April 2019 | 180     | Klärung von Fragen, Einteilung der Aufgaben |
-| Klassendiagramm | 24. April 2019 |         60 | Klassendiagramm Modeliert                            |
+| Klassendiagramm | 24. April 2019 |         60 | Klassendiagramm modelliert                          |
 | Gruppenmeeting | 30 April 2019 | 180   | Meilensteinplanung hinzugefügt |
 | Test | 7 Mai 2019   | 180  | Python Unittest eingebarbeitet |
 | Test | 11 Mai 2019   | 180 | Point cloud reader Test erstellt |
 | Test | 20 Mai 2019   | 60  | cmdargs Test cas erstellt |
-| Gruppenmeeting | 21 Mai   | 150 | Besprechnung und Fehlerdiskussion sowie deren Behebnung |
+| Gruppenmeeting | 21 Mai 2019 | 150 | Besprechung und Fehlerdiskussion sowie deren Behebnung |
 | Test | 21 Mai 2019   | 180  | backend/util Test erstellt |
 | Test | 27 Mai 2019 | 120 | cmd Args Test erstellt|
-| Test | 28 Mai 2019 | 180 | Gruppenmeeting|
-| Test | 03 Juni 2019 | 120 | Teststrucktur angepasst und weiter cmd Args Test erstellt |
+| Gruppenmeeting | 28 Mai 2019 | 60 | Integration in neues Repro|
+| Test | 03 Mai 2019 | 80 | File helper Tests erstellt|
+| Gruppenmeeting |04 Mai 2019 | 180 | Besprechung und Arbeit am Projekt|
+| Test | 04 Juni 2019 | 65 | Test kommentiert und Testfälle hinzugefügt|
+| Test | 05 Juni 2019 | 60 | Code überarbeitet|
+| Gruppenmeeting | 11 Juni 2019 | 240 | Besprechung und Tests für Algorithms erstellt|
+| Test | 12 Juni 2019 | 10 | Änderungen in Cadaster Reader in den Test übernommen|
+| Test | 17 Juni 2019 | 240 | Test Dokumentation|
+| Gruppenmeeting | 18 Juni 2019 | 240 | Besprechung und arbeiten am Projekt|
+| Presentation | 01 Juli 2019 | 60 | Erfahrungen und Risikomanagemant hinzugefügt|
 
 
-Gesamte Arbeitszeit in Minuten: 1500 Minuten
+Gesamte Arbeitszeit: 2735 Minuten
+
