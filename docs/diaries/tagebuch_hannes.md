@@ -29,7 +29,8 @@
 | Optimierung    | 18. Juni 2019      | 60 Minuten      | MemoryError beim Zwischenspeichern entdeckt       |
 | Optimierung    | 20. Juni 2019      | 120 Minuten      | MemoryError Fehler eingegrenzt, Konzept zur Lösung entwickelt       |
 | Optimierung    | 21. Juni 2019      | 180 Minuten      | MemoryError behoben, cutBuildingFromPointcloud & starter umgeschrieben       |
+| Präsentation für Backend    | 24. Juni 2019      | 240 Minuten      | Bilder, Statistiken erstellt       |
 | --    | --      | --      | --      |
 
 
-Gesamte Arbeitszeit: 4050 Minuten
+Gesamte Arbeitszeit: 4290 Minuten
