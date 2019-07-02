@@ -125,18 +125,23 @@ Gesamte Arbeitszeit in Minuten: 3110
 
 | Aufgabe/Arbeit   |      Wann?     |  Wie lange? | Notizen |
 |:-----------------|---------------:|------------:|:--------|
-| Gruppenmeeting | 09.04.19 | 02:00h | Kick-Off und Organisation |
-| Gruppenmeeting  | 16.04.19  | 01:00h  | Klärung von Fragen, Organisation, Aufgabenverteilung |
-| Gruppenmeeting | 23.04.19  | 00:30h | Klärung von Fragen, Einteilung der Aufgaben |
-| Gruppenmeeting  | 30.04.19 | 03:00h | Meilensteinplanung hinzugefügt |
-| CadasterReader | 06.05.19 | 01:30h | Einlesen in CityGML und benötigte Klassen erstellen
-| Gruppenmeeting | 21.05.19 | 04:00h | Klärung des Projektstands und weiterarbeiten an Aufgaben |
-| CadasterReader | 21.05.19  | 04:00h | Einlesen in CityGML, nach nützlichen Libs suchen |
-| CadasterReader | 23.05.19 | 06:00h | Programmieren des Readers
-| CadasterReader | 28.05.19 | 03:00h | Fixen des Readers
-| CadasterReader | 29.05.19 | 01:30h | Refactorn des Readers
+| Gruppenmeeting | 09. April 2019 | 120 Minuten | Kick-Off und Organisation |
+| Gruppenmeeting  | 16. April 2019 | 60 Minute | Klärung von Fragen, Organisation, Aufgabenverteilung |
+| Gruppenmeeting | 23. Aptril 2019| 30 Minuten | Klärung von Fragen, Einteilung der Aufgaben |
+| Gruppenmeeting  | 30. April 2019 | 180 Minuten | Meilensteinplanung hinzugefügt |
+| CadasterReader | 06. Mai 2019 | 90 Minuten | Einlesen in CityGML und benötigte Klassen erstellen
+| Gruppenmeeting | 21. Mai 2019 | 240 Minuten | Klärung des Projektstands und weiterarbeiten an Aufgaben |
+| CadasterReader | 21. Mai 2019| 240 Minuten | Einlesen in CityGML, nach nützlichen Libs suchen |
+| CadasterReader | 23. Mai 2019 | 360 Minuten | Programmieren des Readers
+| CadasterReader | 28. Mai 2019 | 180 Minuten | Fixen des Readers
+| CadasterReader | 29. Mai 2019 | 90 Minuten | Refactorn des Readers
+| Gruppenmeeting | 04. Juni 2019 | 180 Minuten | Besprechung des Projektes und main file zum Ausführen erstellt
+| Gruppenmeeting + Main | 18. Juni 2019 | 180 Minuten | Besprechung des Projektstands, Cadaster Reader überarbeiten und an der main file weiterarbeiten
+| Präsentation + Main | 23. Juni 2019 | 240 Minuten | Erstellung der Präsentation und an der main weiterarbeiten
+| Präsentation | 24. Juni 2019 | 120 Minuten | Bearbeiten der Präsentation
+| Präsentation | 02. Juli 2019 | 30 Minuten | Bearbeiten der Präsentation
 
-Gesamte Arbeitszeit: 1450 Minuten
+Gesamte Arbeitszeit: 2340 Minuten
 
 # Tagebuch Leon Hornig
 
